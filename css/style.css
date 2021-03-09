@@ -5,6 +5,9 @@ header {
 :root{
     --link-color: #1B365D;
     --border-btn: #A7BBC9;
+    --black: #434140;
+    --white: #FFFFFF;
+    --article-bg: #F1C0C7;
 }
 
 /* звернення до всіх тегів за універсальним селектором */
@@ -15,6 +18,8 @@ header {
 }
 body {
     font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
 }
 ul{
     list-style: none;
@@ -25,7 +30,6 @@ a{
 }
 .container{
     width: 1440px;
-    background-color: rgb(176, 226, 255);
     margin: 0 auto;
 }
 
@@ -38,6 +42,7 @@ a{
     padding-bottom: 3px;
     padding-left: 68px;
     padding-right: 104px;
+    background-color: var(--white);
 }
 .nav {
     display: flex;
@@ -66,4 +71,92 @@ a{
     line-height: 1.546;
     color: var(--link-color);
     text-transform: capitalize;
+}
+
+/* стили Hero */
+.hero {
+    background-image: url('../images/hero-back.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 195px;
+    margin-bottom: 36px;
+}
+
+.hero .container {
+    padding-bottom: 189px;
+    position: relative;
+    padding-left: 88px;
+}
+
+.hero-title {
+    font-size: 56px;
+    line-height: 1.1;
+    font-weight: 700;
+    color: var(--link-color);
+    margin-bottom: 17px;
+}
+
+.hero-desc {
+    font-size: 18px;
+    line-height: 1.33;
+    font-weight: 700;
+    color: var(--black);
+    margin-bottom: 40px;
+}
+
+.btnWrapper{
+    margin-bottom: 125px;
+}
+
+.btnWrapper button:first-child {
+    margin-right: 27px;
+}
+
+.btnWrapper button {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.43;
+    padding: 13px 36px;
+    border: 1px solid transparent;
+    border-radius: 24px;
+    color: var(--link-color);
+    background-color: transparent;
+}
+
+.btnWrapper button:hover {
+    border: 1px solid var(--white);
+    background-color: var(--white);
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.article {
+    display: flex;
+    background-color: var(--article-bg);
+    padding-left: 88px;
+    padding-bottom: 16px;
+    padding-top: 16px;
+    width: 499px;
+    position: absolute;
+    bottom: -14px;
+    left: 0;
+    align-items: center;
+}
+
+.article-content {
+    margin-left: 16px;
+}
+
+.article-content h3 {
+    font-size: 15px;
+    line-height: 1.4;
+    font-weight: 700;
+    color: var(--link-color);
+}
+
+.article-content p {
+    font-size: 14px;
+    line-height: 1.43;
+    color: var(--link-color);
 }
