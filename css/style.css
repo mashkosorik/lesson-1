@@ -160,3 +160,14 @@ a{
     line-height: 1.43;
     color: var(--link-color);
 }
+
+.sea-icons {
+    display: flex;
+}
+
+.sea {
+    margin: 26px;
+    height: 763px;
+    width: 395px;
+}
+
