@@ -167,7 +167,10 @@ a{
 
 .sea {
     margin: 26px;
-    height: 763px;
-    width: 395px;
+    height: 592px;
+    width: 307px;
 }
 
+.one {
+    margin-left: 250px;
+}
