@@ -5,9 +5,13 @@ header {
 :root{
     --link-color: #1B365D;
     --border-btn: #A7BBC9;
+    --light-grey: #AEABA8;
+    --light-black: #615E5C;
     --black: #434140;
     --white: #FFFFFF;
     --article-bg: #F1C0C7;
+    --blue: #1990FF;
+    --green: #25D366;
 }
 
 /* звернення до всіх тегів за універсальним селектором */
@@ -16,7 +20,7 @@ header {
     padding: 0;
     box-sizing: border-box;
 }
-body {
+body, button, a {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -163,14 +167,177 @@ a{
 
 .sea-icons {
     display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 77px;
+    padding-bottom: 31px;
 }
 
-.sea {
-    margin: 26px;
-    height: 592px;
-    width: 307px;
+.sea-icons li {
+    width: 304px;
+    height: 587px;
+    position: relative;
 }
 
-.one {
-    margin-left: 250px;
+.sea-icons li .imgWrapper {
+    width: 100%;
+    height: 100%;
+}
+
+.contentWrapper {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding-left: 51px;
+    padding-right: 50px;
+    padding-bottom: 32px;
+    color: var(--white);
+}
+
+.contentWrapper h3 {
+    font-size: 24px;
+    line-height: 1.25;
+    font-weight: 700;
+}
+
+.contentWrapper p {
+    text-align: center;
+    margin-top: 1px;
+    margin-bottom: 15px;
+    font-size: 15px;
+    line-height: 1.4;
+    font-weight: 500;
+}
+
+.contentWrapper button {
+    font-size: 14px;
+    line-height: 1.43;
+    font-weight: 700;
+    border: none;
+    background: transparent;
+    color: var(--white);
+}
+
+.frame {
+    padding-bottom: 48px;
+    background: linear-gradient(0deg, rgba(208,232,234,1) 50%, rgba(255,255,255,1) 50%);
+}
+
+.frame .container {
+    display: flex;
+    flex-flow: column;
+}
+
+.frame h2 {
+    font-size: 50px;
+    line-height: 1.1;
+    font-weight: 700;
+    color: var(--link-color);
+}
+
+.frame .imgWrapper {
+    height: 632px;
+    margin-top: 35px;
+    margin-bottom: 32px;
+}
+
+.frame-list {
+    display: flex;
+    padding-left: 90px;
+}
+
+.frame-list li {
+    width: 360px;
+}
+
+.frame-list li:first-child {
+    margin-right: 156px;
+}
+
+.frame-list li h3 {
+    font-size: 24px;
+    line-height: 1.25;
+    font-weight: 700;
+    color: var(--link-color);
+}
+
+.frame-list li p {
+    font-size: 17px;
+    line-height: 1.35;
+    color: var(--black);
+    margin-top: 11px;
+    margin-bottom: 15px;
+}
+
+.frame-list li button {
+    font-size: 14px;
+    line-height: 1.43;
+    color: var(--link-color);
+    border: none;
+    background: transparent;
+}
+
+.video-maker {
+    padding-top: 16px;
+}
+
+.video-maker .container {
+    display: flex;
+}
+
+.video-maker .imgWrapper {
+    width: 632px;
+    height: 632px;
+}
+
+.section-content ul {
+    display: flex;
+}
+
+.section-content li {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.section-content li:nth-child(1) {
+    margin-right: 16px;
+    background: var(--blue);
+}
+
+.section-content li:nth-child(2) {
+    background: var(--green);
+}
+
+.section-link {
+    display: inline-block;
+    line-height: 0;
+}
+
+.section-content h2 {
+    font-size: 50px;
+    line-height: 1.1;
+    margin-top: 17px;
+    margin-bottom: 19px;
+    color: var(--link-color);
+}
+
+.section-content .desc {
+    font-size: 17px;
+    line-height: 1.35;
+    margin-bottom: 16px;
+    color: var(--light-black);
+}
+
+.section-content .more-desc {
+    font-size: 11px;
+    line-height: 1.63;
+    color: var(--light-grey);
 }
