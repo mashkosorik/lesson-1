@@ -12,6 +12,7 @@ header {
     --article-bg: #F1C0C7;
     --blue: #1990FF;
     --green: #25D366;
+    --ocean: #ADD4E0;
 }
 
 /* звернення до всіх тегів за універсальним селектором */
@@ -341,3 +342,186 @@ a{
     line-height: 1.63;
     color: var(--light-grey);
 }
+
+.article-img img {
+    width: 1440px;
+    height: 720px;
+    top: -00.6;
+    margin-left: 730px;
+}
+.container-h h2 {
+    font-size: 50px;
+    line-height: 1.1;
+    height: 110px;
+    margin-left: 830px;
+    font-weight: 700;
+}
+
+.container-h h3 {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 1.35;
+    margin-left: 830px;
+    margin-top: 20px;
+}
+
+
+.button :nth-child(1) {
+    width: 60px;
+    height: 20px;
+    margin-top: 23px;
+    margin-left: 830px;
+    background-color: transparent;
+    border: 1px solid transparent;
+}
+
+.button :nth-child(2) {
+    height: 23px;
+    width: 315px;
+    margin-left: 830px;
+    width: 315px;
+    height: 23px;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 1.35;
+    background-color: transparent;
+    border: 1px solid transparent;
+}
+
+.button :nth-child(3) {
+    height: 23px;
+    width: 315px;
+    margin-left: 830px;
+    width: 315px;
+    height: 23px;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 1.35;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding-bottom: 56px;
+}
+
+.story-section {
+    background-color: rgba(255, 162, 129, 0.24);
+    padding-bottom: 90px;
+
+}
+
+.story-section .container {
+    padding-left: 88px;
+    background: url(../images/story-icon.jpg);
+    padding-top: 325px;
+    padding-bottom: 58px;
+}
+
+.story-content {
+    margin-bottom: 56px;
+    position: relative;
+}
+
+.story-content::before {
+    content: "";
+    width: 4px;
+    height: 100%;
+    background-color: var(--light-grey);
+    position: absolute;
+    left: -24px;
+
+}
+
+
+.story-content h2 {
+    font-size: 50px;
+    line-height: 1.1;
+    font-weight: 700;
+    color: var(--white);
+}
+
+.story-content h3 {
+    font-size: 17px;
+    line-height: 1.353;
+    color: var(--white);
+    margin-top: 20px;
+    margin-bottom: 24px;
+}
+
+.story-content button {
+    font-size: 14px;
+    line-height: 1.43;
+    color: var(--white);
+    background: transparent;
+    border: none;
+}
+
+.story-buttons button {
+    font-size: 17px;
+    line-height: 1.353;
+    font-weight: 700;
+    background: transparent;
+    border: none;
+    color: var(--white);
+    position: relative;
+}
+
+.story-buttons button:first-child {
+    margin-bottom: 16px;
+}
+
+.story-buttons button::before {
+    content: "";
+    width: 4px;
+    position: absolute;
+    height: 100%;
+    background-color: var(--light-grey);
+    left: -24px;
+}
+
+.alexa .container {
+    padding-left: 88px;
+    padding-right: 88px;
+}
+
+.first-row {
+    display: flex;
+}
+
+.alexa-content .imgWrapper {
+    width: 60px;
+    height: 60px;
+}
+
+.alexa-content h2 {
+    font-size: 50px;
+    line-height: 1.1;
+    font-weight: 700;
+    color: var(--link-color);
+    margin-top: 13px;   
+}
+
+.alexa-content p {
+    font-size: 17px;
+    line-height: 1.353;
+    color: var(--light-black);
+    margin-top: 20px;  
+    margin-bottom: 46px; 
+}
+
+.alexa-content button {
+    font-size: 14px;
+    line-height: 1.43;
+    color: var(--link-color);
+    margin-top: 20px;  
+    margin-bottom: 46px; 
+    background-color: var(--ocean);
+    border: none;
+    border-radius: 24px;
+    padding: 13px 25px;
+}
+
+.alexa-desc .imgWrapper {
+    width: 840px;
+    height: 504px;
+}
+
+
