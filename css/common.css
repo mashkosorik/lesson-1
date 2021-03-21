@@ -7,3 +7,7 @@ img {
 button,a {
     display: block;
 }
+
+h3,h4 {
+    font-weight: normal;
+}
