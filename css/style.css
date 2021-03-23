@@ -475,6 +475,11 @@ a{
     background-color: var(--light-grey);
     left: -24px;
 }
+.alexa {
+    background: linear-gradient(0deg, rgba(208,232,234,1) 50%, rgba(255,255,255,1) 50%);
+    padding-bottom: 29px;
+
+}
 
 .alexa .container {
     padding-left: 88px;
@@ -601,12 +606,11 @@ a{
 .products li {
     display: flex;
     flex-flow: column;
+    background-color:#F7F7F7;
     align-items: center;
-    border: 1px solid red;
     padding: 32px 18px 24px;
     width: 304px;
     justify-content: space-between;
-
 }
 
 .product-price {
@@ -648,5 +652,19 @@ a{
     font-size: 14px;
     line-height: 1.43;
     color: var(--link-color);
+}
+
+.alexaBtn {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    padding: 13px 33px;
+    border: none;
+    border-radius: 24px;
+    background-color: var(--white);
+    color: var(--link-color);
+    font-size: 14px;
+    line-height: 1.43;
+
 }
 
