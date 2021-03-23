@@ -14,6 +14,9 @@ header {
     --green: #25D366;
     --ocean: #ADD4E0;
     --dark-blue: #1877F2;
+    --footer-back: #272E38;
+    --footer-links: #DADBDD;
+    --footer-text: #9CA5B0;
 }
 
 /* звернення до всіх тегів за універсальним селектором */
@@ -665,6 +668,95 @@ a{
     color: var(--link-color);
     font-size: 14px;
     line-height: 1.43;
+}
+.footer {
+    background-color: var(--footer-back);
+}
+
+.footer .container {
+    padding-left: 88px;
+    padding-top: 64px;
+    padding-bottom: 61px;
+    display: flex;
+}
+
+.footer .logo {
+    width: 168px;
+    height: 82px;
+    margin-right: 180px;
+}
+
+.footerWrapper {
+    display: flex;
+    flex-flow: column;
+}
+
+.footerWrapper .top {
+    display: flex;
+}
+
+.footerWrapper .links {
+    display: flex;
+    flex-flow: column wrap;
+    width: 406px;
+    height: 229px;
+}
+
+.footerWrapper .links a {
+    font-size: 13px;
+    line-height: 1.62;
+    color: var(--footer-links);
+    padding-bottom: 17px;
+}
+
+.footerWrapper .info {
+    display: inline-flex;
+    flex-flow: column;
 
 }
+
+.footerWrapper .info p {
+    font-size: 14px;
+    line-height: 1.43;
+    color: var(--footer-text);
+    margin-bottom: 15px;
+}
+
+.footerWrapper .info-signUp {
+    font-size: 14px;
+    line-height: 1.43;
+    color: var(--link-color);
+    padding: 11px 25px 9px;
+    border: none;
+    border-radius: 24px;
+    border-color: var(--white);
+    margin-bottom: 52px;
+    margin-right: auto;
+}
+
+.footerWrapper .info-lang {
+    font-size: 11px;
+    line-height: 1.55;
+    color: var(--white);
+    background: transparent;
+    border-radius: 5px;
+    border: 1px solid #3D434C;
+    padding-top: 12px;
+    padding-bottom: 11px;
+    padding-left: 63px;
+    padding-right: 68px;
+}
+.footerWrapper .info-lang span {
+    color: var(--footer-text);
+    
+}
+
+.footerWrapper .bottom {
+    display: flex;
+    flex-flow: column;
+}
+
+
+
+
 
