@@ -754,6 +754,15 @@ a{
 .footerWrapper .bottom {
     display: flex;
     flex-flow: column;
+    padding-top: 65px;
+    color: var(--footer-text);
+    font-size: 11px;
+    line-height: 1.54;
+}
+
+.footerWrapper .butP {
+    margin-top: 21px;
+    margin-bottom: 21px;
 }
 
 
