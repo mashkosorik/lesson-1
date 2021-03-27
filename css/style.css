@@ -1,6 +1,4 @@
-header {
-    background: rgb(252, 153, 118);
-}
+
 /* переменные со значениями */
 :root{
     --link-color: #1B365D;
@@ -91,16 +89,15 @@ a{
 }
 
 /* стили Hero */
-.hero {
-    background-image: url('../images/hero-back.jpg');
+
+
+.hero .container {
+    padding-top: 195px;
+    margin-bottom: 36px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    padding-top: 195px;
-    margin-bottom: 36px;
-}
-
-.hero .container {
+    background-image: url('../images/hero-back.jpg');
     padding-bottom: 189px;
     position: relative;
     padding-left: 88px;
@@ -234,14 +231,12 @@ a{
     color: var(--white);
 }
 
-.frame {
-    padding-bottom: 48px;
-    background: linear-gradient(0deg, rgba(208,232,234,1) 50%, rgba(255,255,255,1) 50%);
-}
 
 .frame .container {
     display: flex;
     flex-flow: column;
+    padding-bottom: 48px;
+    background: linear-gradient(0deg, rgba(208,232,234,1) 50%, rgba(255,255,255,1) 50%);
 }
 
 .frame h2 {
@@ -408,13 +403,9 @@ a{
     padding-bottom: 56px;
 }
 
-.story-section {
+.story-section .container {
     background-color: rgba(255, 162, 129, 0.24);
     padding-bottom: 90px;
-
-}
-
-.story-section .container {
     padding-left: 88px;
     background: url(../images/story-icon.jpg);
     padding-top: 325px;
@@ -478,15 +469,13 @@ a{
     background-color: var(--light-grey);
     left: -24px;
 }
-.alexa {
-    background: linear-gradient(0deg, rgba(208,232,234,1) 50%, rgba(255,255,255,1) 50%);
-    padding-bottom: 29px;
-
-}
+    
 
 .alexa .container {
     padding-left: 88px;
     padding-right: 88px;
+    background: linear-gradient(0deg, rgba(208,232,234,1) 50%, rgba(255,255,255,1) 50%);
+    padding-bottom: 29px;
 }
 
 .first-row {
@@ -669,11 +658,10 @@ a{
     font-size: 14px;
     line-height: 1.43;
 }
-.footer {
-    background-color: var(--footer-back);
-}
+
 
 .footer .container {
+    background-color: var(--footer-back);
     padding-left: 88px;
     padding-top: 64px;
     padding-bottom: 61px;
