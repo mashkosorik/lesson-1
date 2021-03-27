@@ -41,6 +41,8 @@ a{
 .container{
     width: 1440px;
     margin: 0 auto;
+    padding-left: 88px;
+    padding-right: 88px;
 }
 
 .more {
@@ -121,10 +123,12 @@ a{
 
 .btnWrapper{
     margin-bottom: 125px;
+    display: flex;
 }
 
 .btnWrapper button:first-child {
     margin-right: 27px;
+
 }
 
 .btnWrapper button {
@@ -132,6 +136,7 @@ a{
     font-size: 14px;
     line-height: 1.43;
     padding: 13px 36px;
+    background: transparent;
     border: 1px solid transparent;
     border-radius: 24px;
     color: var(--link-color);
